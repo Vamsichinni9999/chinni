@@ -1,0 +1,29 @@
+.appbar-root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #3f51b5;
+}
+
+.appbar {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: white;
+}
+
+.menu-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.title {
+  flex-grow: 1;
+  font-size: 24px;
+}
